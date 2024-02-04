@@ -11,7 +11,14 @@ main {
   padding: 20px;
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);#main {
+  text-align: center;
+}
+
+img {
+     display: block;
+     max-width: 100%;  
+    margin: 0 auto;
 }
 
 header {
@@ -29,10 +36,9 @@ h1 {
 }
 
 #tribute-image {
+  display: block;
   max-width: 100%;
-  border-radius: 8px;
   margin: 0 auto;
-}
 
 #img-section {
   text-align: center;
@@ -102,4 +108,8 @@ cite {
 
 #tribute-link:hover {
   text-decoration: underline;
+}
+
+#image {
+  max-width: 100%;
 }
