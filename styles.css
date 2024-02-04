@@ -31,7 +31,13 @@ h1 {
 #tribute-image {
   max-width: 100%;
   border-radius: 8px;
+  margin: 0 auto;
 }
+
+#img-section {
+  text-align: center;
+}
+
 
 #img-caption {
   color: #777;
