@@ -11,14 +11,14 @@ main {
   padding: 20px;
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);#main {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
 img {
-     display: block;
-     max-width: 100%;  
-    margin: 0 auto;
+  display: block;
+  max-width: 100%; /* Set max-width to 100% */
+  margin: 0 auto;
 }
 
 header {
@@ -35,15 +35,9 @@ h1 {
   color: #666;
 }
 
-#tribute-image {
-  display: block;
-  max-width: 100%;
-  margin: 0 auto;
-
 #img-section {
   text-align: center;
 }
-
 
 #img-caption {
   color: #777;
@@ -108,8 +102,4 @@ cite {
 
 #tribute-link:hover {
   text-decoration: underline;
-}
-
-#image {
-  max-width: 100%;
 }
